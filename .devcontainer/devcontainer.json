@@ -1,9 +1,5 @@
 {
   "name": "object-oriented",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/java:1": {
-      "version": "11",
-    },
-  }
+  "image": "openjdk:11-alpine",
+  "features": {}
 }
