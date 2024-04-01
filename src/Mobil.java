@@ -3,6 +3,20 @@ class Mobil {
     private String nama;
     private int tahun;
 
+    public Mobil(){};
+
+    public Mobil(String jenis, String nama, int tahun) {
+        this.jenis = jenis;
+        this.nama = nama;
+        this.tahun = tahun;
+    }
+
+    public void detilMobil(){
+        System.out.println("Nama mobil : "+this.nama);
+        System.out.println("Jenis mobil : "+this.jenis);
+        System.out.println("Tahun mobil : "+this.tahun);
+    }
+
     public void setJenis(String jenis) {
         this.jenis = jenis;
     }
@@ -26,4 +40,5 @@ class Mobil {
     int getTahun() {
         return tahun;
     }
+
 }
